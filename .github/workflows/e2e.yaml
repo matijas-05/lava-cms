@@ -30,7 +30,7 @@ jobs:
           run_install: false
 
       - name: Setup pnpm cache
-        uses: actions/cache@v4.0.1
+        uses: actions/cache@v4.0.2
         with:
           path: ${{ github.workspace }}/.pnpm-store/v3
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
@@ -50,7 +50,7 @@ jobs:
           pnpm db:push
 
       - name: Setup Next.js cache
-        uses: actions/cache@v4.0.1
+        uses: actions/cache@v4.0.2
         with:
           # See here for caching with `yarn` https://github.com/actions/cache/blob/main/examples.md#node---yarn or you can leverage caching with actions/setup-node https://github.com/actions/setup-node
           path: ${{ github.workspace }}/www/admin/.next/cache

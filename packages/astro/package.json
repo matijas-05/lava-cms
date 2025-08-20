@@ -52,7 +52,7 @@
 	},
 	"devDependencies": {
 		"@lavacms/types": "workspace:*",
-		"astro": "^4.9.1",
+		"astro": "^4.16.19",
 		"eslint-config-package": "workspace:*",
 		"prettier-plugin-astro": "^0.14.0",
 		"vite": "^5.1.7",

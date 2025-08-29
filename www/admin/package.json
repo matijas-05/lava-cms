@@ -83,7 +83,7 @@
 		"language-tags": "^1.0.9",
 		"lucia": "3.2.0",
 		"natsort": "^2.0.3",
-		"next": "^14.2.3",
+		"next": "^14.2.32",
 		"oslo": "^1.2.0",
 		"re-resizable": "^6.9.16",
 		"react": "^18.3.1",

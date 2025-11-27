@@ -14,7 +14,7 @@
 		"@astrojs/check": "^0.7.0",
 		"@astrojs/vercel": "^7.6.0",
 		"@lavacms/astro": "workspace:*",
-		"astro": "^4.9.1",
+		"astro": "^5.15.9",
 		"vite": "^5.1.7"
 	},
 	"devDependencies": {
